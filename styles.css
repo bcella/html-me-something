@@ -1,0 +1,96 @@
+html, body {
+    font-family: "Didot", serif;
+    background-color: mediumseagreen
+    margin: 10px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+#imagesMain {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#imagesMain img {
+  height: 250px;
+  width: 250px;
+  padding: 5px 30px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-family: "Didot", serif;
+}
+
+h2, h3, p {
+    font-family: "Didot", serif;
+
+}
+
+.green {
+  font-family: "Didot", serif;
+  display: block;
+  background-color: #94c7ae;
+  color: black
+  margin: 10px;
+  padding: 10px;
+  max-width: 100%;
+  
+}
+
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: rgb(29, 29, 31);
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0c291b;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover {
+    background-color: #94c7ae;
+    color: black;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
